@@ -48,7 +48,7 @@ app.use(cookieParser());
 // );
 
 app.use(cors({
-  origin: 'http://localhost:3000', // Allow your frontend origin
+  origin: 'https://famtest-render', // Allow your frontend origin
   credentials: true // Allow credentials
 }));
 

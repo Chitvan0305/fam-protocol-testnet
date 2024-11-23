@@ -48,7 +48,7 @@ app.use(cookieParser());
 // );
 
 app.use(cors({
-  origin: 'https://famtest-render', // Allow your frontend origin
+  origin: ['https://fam-testnet-delta.vercel.app'], // Allow your frontend origin
   credentials: true // Allow credentials
 }));
 
